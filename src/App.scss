@@ -1,0 +1,41 @@
+
+@font-face {
+  font-family: "pop-ins-md";
+  src: url('assets/fonts/Poppins-Medium.ttf');
+}
+@font-face {
+  font-family: "pop-ins-lt";
+  src: url('assets/fonts/Poppins-Light.ttf');
+}
+@font-face {
+  font-family: "pop-ins-reg";
+  src: url('assets/fonts/Poppins-Regular.ttf');
+}
+@font-face {
+  font-family: "pop-ins-exbold";
+  src: url('assets/fonts/Poppins-ExtraBold.ttf');
+}
+body{
+  scroll-behavior: smooth;
+}
+
+div{
+  font-family: pop-ins-md;
+}
+
+@import "aos/dist/aos.css";
+@import 'bootstrap/scss/bootstrap';
+@import './sass/variable';
+@import './sass/Header';
+@import './sass/home';
+@import './sass/project';
+@import './sass/skills';
+@import './sass/About';
+@import './sass/scrool';
+@import './sass/contact';
+@import './sass/responsive'
+
+
+
+
+
